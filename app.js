@@ -166,7 +166,7 @@ $("#refresh").onclick = async () => {
     render(await response.json());
     $("#toast").textContent = "榜单已更新";
   } catch {
-    $("#toast").textContent = "更新失败，请检查服务状态";
+    $("#toast").textContent = window.HOME_TREND_DATA ? "静态分享版展示最近生成榜单" : "更新失败，请检查服务状态";
   } finally {
     $("#toast").classList.add("show");
     setTimeout(() => $("#toast").classList.remove("show"), 1800);
@@ -177,7 +177,7 @@ $("#refresh").onclick = async () => {
 load().then(render).catch(() => { $("#result").textContent = "数据加载失败，请启动本地服务"; });
 if (currentUser) {
   $("#loginLink").textContent = currentUser;
-  $("#loginLink").href = "/radar/login.html";
+  $("#loginLink").href = "login.html";
   $("#logout").hidden = false;
 }
 $("#logout").onclick = () => {
