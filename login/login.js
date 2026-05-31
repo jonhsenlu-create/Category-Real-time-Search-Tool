@@ -3,5 +3,5 @@ document.querySelector("#loginForm").addEventListener("submit", (event) => {
   const account = document.querySelector("#account").value.trim();
   if (!account) return;
   localStorage.setItem("radarUser", account);
-  window.location.href = "/radar/";
+  window.location.href = window.location.pathname.endsWith("/login/") ? "../" : "./";
 });
