@@ -1,0 +1,8 @@
+[
+  { "name": "京东公开搜索", "type": "seed", "basisType": "商品搜索依据", "enabled": true, "url": "https://search.jd.com/Search?keyword=%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8", "note": "进入对应关键词的京东公开结果页。" },
+  { "name": "淘宝公开搜索", "type": "seed", "basisType": "商品搜索依据", "enabled": true, "url": "https://s.taobao.com/search?q=%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8", "note": "进入对应关键词的淘宝公开结果页。" },
+  { "name": "天猫公开搜索", "type": "seed", "basisType": "商品搜索依据", "enabled": true, "url": "https://list.tmall.com/search_product.htm?q=%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8", "note": "进入对应关键词的天猫公开结果页。" },
+  { "name": "苏宁公开搜索", "type": "seed", "basisType": "商品搜索依据", "enabled": true, "url": "https://search.suning.com/%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8/", "note": "进入对应关键词的苏宁公开结果页。" },
+  { "name": "抖音内容搜索", "type": "seed", "basisType": "内容搜索依据", "enabled": true, "url": "https://www.douyin.com/search/%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8", "note": "进入抖音公开 Web 搜索页，部分内容可能要求登录。" },
+  { "name": "小红书内容搜索", "type": "seed", "basisType": "内容搜索依据", "enabled": true, "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8&source=web_explore_feed", "note": "进入小红书公开搜索页，部分内容可能要求登录。" }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "home-trend-radar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "crawl": "node crawler.mjs",
+    "seed": "node seed-products.mjs",
+    "check": "node --check server.mjs && node --check app.js && node --check login/login.js && node --check crawler.mjs && node --check taobao-taxonomy.mjs && node --check seed-products.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

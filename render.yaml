@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: product-radar
+    runtime: node
+    buildCommand: npm run check
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: NODE_VERSION
+        value: 22
